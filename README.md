@@ -1,10 +1,14 @@
 # docker-summitdb
 Dockerfile for SummitDB Docker image based on Alpine
 
+[SummitDB](https://github.com/tidwall/summitdb) Version 0.3.2
+
 Small Docker image (24MB) for running a containerized [SummitDB](https://github.com/tidwall/summitdb).
 SummitDB is an in-memory, NoSQL key/value database written in Go with a Redis-style API. It uses the Raft consensus to build a cluster.
 
 SummitDB uses port 7481 per default for client and server-to-server communication.
+
+This docker image makes use of gosu and dumb-init.
 
 Built this container:
 
