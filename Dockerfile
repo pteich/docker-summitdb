@@ -35,6 +35,6 @@ EXPOSE 7481
 
 WORKDIR /opt/summitdb
 
-ENTRYPOINT ["gosu", "summitdb", "dumb-init", "./summitdb-server", "-dir=/data"]
+ENTRYPOINT ["dumb-init", "gosu", "summitdb", "./summitdb-server", "-dir=/data"]
 
 CMD [""]
