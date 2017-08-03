@@ -1,6 +1,8 @@
 # docker-summitdb
 Dockerfile for SummitDB Docker image based on Alpine
 
+[![Docker Build Statu](https://img.shields.io/docker/build/pteich/summitdb.svg)](https://hub.docker.com/r/pteich/summitdb/)
+
 [SummitDB](https://github.com/tidwall/summitdb) Version 0.4.0
 
 Small Docker image (24MB) for running a containerized [SummitDB](https://github.com/tidwall/summitdb).
