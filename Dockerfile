@@ -1,10 +1,10 @@
-FROM alpine:3.4
+FROM alpine:latest
 
 MAINTAINER Peter Teich <mail@pteich.xyz>
 
 ENV GOSU_VERSION 1.10
 ENV DUMB_INIT_VERSION 1.2.0
-ENV SUMMITDB_VERSION 0.3.2
+ENV SUMMITDB_VERSION 0.4.0
 
 RUN addgroup -S summitdb && adduser -S -G summitdb summitdb
 
